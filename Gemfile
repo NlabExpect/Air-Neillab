@@ -20,6 +20,7 @@ gem 'toastr-rails'
 gem 'omniauth'
 gem 'omniauth-facebook'
 
+gem 'flag-icon-sass'
 gem 'paperclip'
 
 gem 'geocoder'
@@ -30,12 +31,17 @@ gem 'private_pub'
 gem 'thin'
 gem 'nokogiri'
 gem 'ransack'
+gem 'graphql'
+
+gem 'therubyracer', platforms: :ruby
 
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  # gem 'capistrano-rails', :group
+  # gem 'capistrano-passenger', :group
 end
 
 group :prodction do
