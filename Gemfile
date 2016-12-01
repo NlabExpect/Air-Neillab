@@ -44,8 +44,7 @@ group :development, :test do
   # gem 'capistrano-passenger', :group
 end
 
-group :prodction do
-  gem 'rails_12factor'
+group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
-
